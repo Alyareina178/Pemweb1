@@ -1,0 +1,48 @@
+body {
+    background-color: antiquewhite;
+}
+#header {
+    background-color: burlywood;
+    text-align: center;
+    color:blue;
+    border-style: solid;
+    border-color: burlywood;
+        blockquote {
+        background-color: gold;
+        margin-bottom: 10px;
+        border-top: dashed;
+        border-left: dashed;
+        color: black;
+    }
+}
+div ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto
+}
+div ul li {
+    float: left;
+}
+div ul li a {
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+    color: blue;
+}
+.gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+} 
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.isi:first-letter {
+    font-size: 70px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
